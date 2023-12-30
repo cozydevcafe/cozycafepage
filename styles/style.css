@@ -1,3 +1,30 @@
 .content {
     display: flex;
+    flex-direction: column;
+    width: 875px;
+    height: 425px;
+    margin: 16px auto;
 }
+
+.greeting, .about-section, .goal-section, .goodbye-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.welcome-header, .welcome-text {
+    display: flex;
+    margin: 0;
+    padding: 4px;
+}
+
+.welcome-text {
+    font-size: 18px;
+}
+
+.site-content, .content-about {
+    display: flex;
+}
+
+
